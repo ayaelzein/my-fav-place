@@ -1,13 +1,52 @@
 * {
-    margin: 0;
+    margin: 10;
     padding: 0;
   }
 
-.marquee-footer {
-    display: flex;
-    gap: 4.8rem;
+.barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
+
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.atkinson-hyperlegible-mono {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+  
+
+.marquee-footer {
+    overflow: clip;
+}
+
+.marquee-footer-track {
+    display: flex;
+    padding-left: 4.8rem;
+    gap: 4.8rem;
+    width: max-content;
+    animation: marquee-move-footer var(--speed, 15s) linear infinite var(
+        --direction,
+        forwards
+        );
+}
+
 .marquee-footer p {
     padding: 1rem 2.5rem;
 
 }  
+
+@keyframes marquee-move-footer { 
+    to {
+        transform: translateX(-50%);
+    }
+}
