@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.marquee-footer {
+    display: flex;
+    gap: 4.8rem;
+}
+.marquee-footer p {
+    padding: 1rem 2.5rem;
+
+}  
