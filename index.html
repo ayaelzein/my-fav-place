@@ -3,24 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css"/>
         <title>My Favorite Place</title>
     </head>
 
     <body>
 
         <nav>
-            <p>The Mediterranean Sea</p>
+            <div class="barlow-medium">
+                <p>The Mediterranean Sea</p>
+            </div>
         </nav>
 
         <main>
             <img src="sea.gif" alt="quick logo" width="1000" height="384"/>
-            <h6><a href="https://pin.it/4rO8hEoDo">reference</a></h6></main>
+            <div class="barlow-regular">
+                <h6><a href="https://pin.it/4rO8hEoDo">reference</a></h6></main>
+            </div>
+
 
             <article>
-                <h3>(the) Mediterranean Sea</h3>
-                <h4>noun</h4>
-                <p>/ðə ˌmedɪtəˌreɪniən ˈsiː/</p>
-                <p>a sea surrounded by Africa, Europe, and Asia. 2,400 miles (3,865 kilometers) long; 1,145,000 square miles (2,965,550 square kilometers); greatest known depth 14,436 feet (4,400 meters).</p>
+                <div class="barlow-regular">
+                    <h3>(the) Mediterranean Sea</h3>
+                    <h4>noun</h4>
+                    <p>/ðə ˌmedɪtəˌreɪniən ˈsiː/</p>
+                    <p>a sea surrounded by Africa, Europe, and Asia. 2,400 miles (3,865 kilometers) long; 1,145,000 square miles (2,965,550 square kilometers); greatest known depth 14,436 feet (4,400 meters).</p>
+                </div>
             </article>
 
             <section>
@@ -29,7 +37,22 @@
         </main>
 
         <footer>
-            <p>[Aaaark! Eeeek! | shhhh-dsssshh | Kee-yah! Kee-yah! | ... shhhhhh — wave slams, then recedes...]</p>
+            <div class="marquee-footer">
+                <div class="marquee-footer-tracker">
+                    <div class=".atkinson-hyperlegible-mono">
+                        <p>[Aaaark! Eeeek!</p>
+                        <p>| shhhh-dsssshh</p>
+                        <p>| Kee-yah! Kee-yah!</p>
+                        <p>| ... shhhhhh</p>
+                        <p>— wave slams, then recedes...]</p>
+                        <p aria-hidden="true">[Aaaark! Eeeek!</p>
+                        <p aria-hidden="true">| shhhh-dsssshh</p>
+                        <p aria-hidden="true">| Kee-yah! Kee-yah!</p>
+                        <p aria-hidden="true">| ... shhhhhh</p>
+                        <p aria-hidden="true">— wave slams, then recedes...]</p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
     </body>
