@@ -1,0 +1,47 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* border-radius: 10px; */
+}
+
+/* .identifier {
+  margin: 10px 20px 30px 40px;
+  padding: 10px;
+  background-color: chartreuse;
+} */
+
+/* .box > p {
+  color: white;
+}
+
+.box p {
+  color: white;
+}
+
+.box.identifier {
+  background-color: pink;
+} */
+
+/* .blue-box {
+  background-color: blue;
+}
+
+div {
+  background-color: purple;
+}
+
+p {
+  font-size: 24px;
+} */
+
+/* Bad Practices */
+/* Do not use undescriptive class naming */
+/* Do not use internal/inline css at any cost */
+/* Do not use ids for styling */
